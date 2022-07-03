@@ -1,0 +1,160 @@
+main {
+    min-height: calc(100vh - 6vh - 3rem); 
+}
+
+/*Classes for home page*/
+
+.grid-content {
+    display: grid;
+    gap: 7%;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 4% 2% 0 2%;
+}
+
+.grid-column-span-2 {
+    grid-column: span 2;
+}
+
+#blog-preview {
+    border-radius: 20px;
+    backdrop-filter: blur(100px);
+    color: white;
+    background: rgba(0, 238, 255, 0.4);
+}
+
+#home-blog-section-content {
+    font-size: 150%;
+    margin: 2% 2%;
+}
+
+#blog-preview .u-url {
+    font-size: 130%;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+#blog-preview .u-url:hover {
+    background: rgba(223, 45, 134, 0.8);
+    text-decoration: underline;
+    border-radius: 70px;
+    padding: 0.5%;
+}
+
+#portfolio-preview {
+    border-radius: 20px;
+    backdrop-filter: blur(100px);
+    color: white;
+    background: rgba(0, 238, 255, 0.4);
+}
+
+#home-portfolio-section-content {
+    font-size: 150%;
+    margin: 2% 2%;
+}
+
+#portfolio-preview .u-url {
+    font-size: 120%;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#portfolio-preview .u-url:hover {
+    background: rgba(223, 45, 134, 0.8);
+    text-decoration: underline;
+    border-radius: 70px;
+    padding: 0.5%;
+}
+
+#about-header {
+    color: white;
+    text-align: left;
+    font-size: 350%;
+}
+
+#about{
+    color: white;
+    text-align: left;
+    font-size: 200%;
+}
+
+#call-to-action.u-url {
+    font-size: 150%;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#call-to-action.u-url:hover {
+    text-decoration: underline;
+    background: rgba(223, 45, 134, 0.8);
+    text-decoration: underline;
+    border-radius: 70px;
+    padding: 0.5%;
+}
+
+@media screen and (max-width: 850px) {
+    
+    .grid-content {
+        display: grid;
+        grid-template-rows: repeat(3, 0.1fr);
+        gap: 2%;
+    }
+
+    #blog-preview {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+
+    #portfolio-preview {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+
+    #about {
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+
+    #home-blog-section-content {
+        font-size: 100%;
+        margin: 4% 4%;
+    }
+
+    #blog-preview .u-url {
+        font-size: 100%;
+    }
+
+    #home-portfolio-section-content {
+        font-size: 100%;
+        margin: 4% 4%;
+    }
+
+    #portfolio-preview .u-url {
+        font-size: 100%;
+    }
+
+    #about-header {
+        color: white;
+        text-align: left;
+        font-size: 200%;
+    }
+
+    #about{
+        color: white;
+        text-align: left;
+        font-size: 100%;
+    }
+
+    #call-to-action.u-url {
+        font-size: 100%;
+    }
+}

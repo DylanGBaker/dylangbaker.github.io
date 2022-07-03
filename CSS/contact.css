@@ -1,0 +1,19 @@
+main {
+    min-height: calc(100vh - 6vh - 3rem); 
+}
+
+/*Classes for the Contact page*/
+
+#contact {
+    margin: 50px 400px 0px 400px;
+    background: rgba(0,0,0,0.5);
+    backdrop-filter: blur(10px);
+    border-radius: 5px;
+}
+
+#contact .e-content{
+    color: white;
+    font-size: 150%;
+    text-align: center;
+}
+

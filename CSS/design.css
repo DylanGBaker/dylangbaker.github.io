@@ -1,0 +1,39 @@
+main {
+    min-height: calc(100vh - 6vh - 3rem);
+}
+/*Classes for the Design page*/
+
+#design-header .headers {
+    margin-top: 30px;
+    margin-left: 2rem;
+    font-weight: bold;
+    font-size: 400%;
+    color: white;
+}
+
+.design {
+    background: rgba(0,0,0,0.4);
+    backdrop-filter: blur(100px);
+    border-radius: 5px;
+    margin: 0 5%;
+}
+
+.wireframes-and-style-guide-images {
+    display: block;
+    margin: 0 auto;
+    width: 60%;
+    padding: 3rem 0;
+}
+
+@media screen and (max-width: 850px) {
+
+    #design-header .headers {
+        font-size: 200%;
+        justify-content: center;
+    }
+
+    .wireframes-and-style-guide-images {
+        width: 100%;
+    }
+}
+

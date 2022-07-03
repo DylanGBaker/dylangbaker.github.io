@@ -1,0 +1,49 @@
+main {
+    min-height: calc(100vh - 6vh - 3rem);
+}
+
+/*Classes for the Portfolio page*/
+
+.portfolio {
+    width: 95%;
+    height: 40%;
+    background: rgba(0,0,0,0.4);
+    backdrop-filter: blur(10px);
+    border-radius: 5px;
+}
+
+.image {
+    margin-right: 900px;
+    width: 40%;
+}
+
+.image .e-content{
+    float: left;
+    width: 100%;
+    padding: 20px;
+}
+
+.description {
+    color: rgb(255, 255, 255);
+    font-size: 150%;
+    text-align: left;
+    padding: 5px 5px;
+}
+
+.description .u-url {
+    color: rgba(22, 255, 240, 0.9);
+}
+
+@media screen and (max-width: 850px) {
+    .image {
+        width: 80%;
+    }
+
+    .portfolio {
+        height: 70%;
+    }
+
+    .description.e-content {
+        padding: 10px 10px;
+    }
+}

@@ -1,0 +1,28 @@
+main {
+    min-height: calc(100vh - 6vh - 3rem); 
+}
+
+/*Classes for the about page*/
+
+#about_me {
+    margin: 250px 900px 0 100px;
+    background: rgba(0,0,0,0.5);
+    backdrop-filter: blur(5px);
+    border-radius: 5px;
+}
+
+#about_me .headers {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 400%;
+    color: white;
+}
+
+#about_me .e-content{
+    color: white;
+    font-size: 150%
+}
+
+/* Media query for different screen size*/
+
+/*______________________________________________________________________________________________________________________________*/
