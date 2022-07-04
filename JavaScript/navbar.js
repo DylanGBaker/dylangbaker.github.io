@@ -5,7 +5,7 @@ function InitialiseFilePaths() {
   if (window.location.pathname == "") {
     filePaths = [
       "index.html",
-      "/Blogs/blog.html",
+      "/blog.html",
       "/Design/design.html",
       "/Portfolio/portfolio.html",
       "/Contact/contact.html",
