@@ -1,6 +1,6 @@
 body{
     font-family: 'Josefin Slab', serif;
-    background: rgba(0,0,0,0.4) url(../Test_Images/website-background-compressed.png) repeat fixed 100% ;
+    background: rgba(0,0,0,0.4) url(../Test_Images/website-background-compressed-large.png) repeat fixed 100% ;
     background-blend-mode: darken;
     background-size: cover;
     background-repeat: no-repeat;
@@ -11,4 +11,12 @@ body{
 body .headers{
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: bold;
+}
+
+@media screen and (max-width: 1000px) {
+    body {
+        background: rgba(0,0,0,0.4) url(../Test_Images/website-background-compressed-large.png) repeat fixed 60% ;
+        height: 20vh;
+    }
+    
 }
