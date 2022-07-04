@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>External API Essay</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="../Test_Images/cartoon-panda-compressed.png"
+    />
+    <link rel="stylesheet" href="../CSS/blogs.css" />
+    <link rel="stylesheet" href="../CSS/body.css" />
+    <link rel="stylesheet" href="../CSS/navbar.css" />
+    <link rel="stylesheet" href="../CSS/footer.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Slab&display=swap"
+      rel="stylesheet"
+    />
+    <script defer src="../JavaScript/navbar.js"></script>
+    <script defer src="../JavaScript/footer.js"></script>
+    <script defer src="../JavaScript/anime.min.js"></script>
+    <script defer src="../JavaScript/animations.js"></script>
+  </head>
+  <body>
+    <nav class="h-card nav-bar">
+      <section>
+        <img
+          class="logo"
+          src="../Test_Images/cartoon-panda-compressed.png"
+          alt="My logo. It can be found here: https://pixabay.com/illustrations/cartoons-character-cute-funny-4587468/"
+        />
+      </section>
+      <ul class="nav-list">
+        <li class="p-name u-url navlink">Home</li>
+        <li class="p-name u-url navlink">Blogs</li>
+        <li class="p-name u-url navlink">Design</li>
+        <li class="p-name u-url navlink">Portfolio</li>
+        <li class="p-name u-url navlink">Contact</li>
+      </ul>
+      <section class="hamburger-logo">
+        <section id="line"></section>
+        <section id="line"></section>
+        <section id="line"></section>
+      </section>
+    </nav>
+
+    <main>
+      <article id="blog_post" class="h-entry">
+        <header class="headers">
+          <h1 class="p-name">Anime.js</h1>
+        </header>
+        <header class="paragraph_headers">
+          <h2>Introduction</h2>
+        </header>
+        <p class="e-content">
+          “Anime.js (/ˈæn.ə.meɪ/) is a lightweight JavaScript animation library
+          with a simple, yet powerful API. It works with CSS properties, SVG,
+          DOM attributes and JavaScript Objects. [1]”
+        </p>
+        <p class="e-content">
+          I felt that my site was quite static. It was lacking possible movement
+          and animations. Looking online I found that you can do animations
+          through CSS and JavaScript, but it can get complex, and the code can
+          get long. I thought I would try and find an external JavaScript
+          library that I could use to make animation code simple but that can do
+          a lot. By doing it through JavaScript I could also use one JavaScript
+          to handle all my animations instead of writing it for every CSS
+          element that needs it.
+        </p>
+        <p class="e-content">
+          There were other options such as Bounce.js or Velocity.js but from the
+          research most of the suggestions were that Anime.js is good and easy
+          to use. From my time using it I agree.
+        </p>
+        <p class="e-content">
+          From the examples they give in their documentation to how to implement
+          it in your code it was all done in a way too make it as simple as
+          possible but allow someone to make it complex if that’s the animations
+          that they want, and it can get very complicated.
+        </p>
+        <header class="paragraph_headers">
+          <h2>How did help?</h2>
+        </header>
+        <p class="e-content">
+          As I mentioned above, I felt that my site was static and needed some
+          movement to make the user experience better. However, I did not want
+          to make everything dynamic as that could become too much movement and
+          make the user experience worse.
+        </p>
+        <p class="e-content">
+          I just started with the question is what is simple yet effective. My
+          first thought for introducing some movement is when the user first
+          loads a page. I wanted my logo and navbar links to have an animation
+          where it gets bigger and maybe slides into place.
+        </p>
+        <p class="e-content">
+          The logo starts with a smaller scale and then simply moves into its
+          position over time and goes back to its normal scale. It was hard to
+          find what duration the animation should take place over so that it was
+          not too fast or too slow. This took quite a bit of time, but the API
+          made it easy to test.
+        </p>
+        <p class="e-content">
+          I feel that although these animations are simple, they provide some
+          movement and excitement when looking at my website. Just looking at a
+          static website the whole time can be monotonous and so by adding these
+          simple animations it made my website more interesting and a little
+          more exciting to look at for the user.
+        </p>
+        <p class="e-content">
+          Another way I could have added movement was through Vanta.js however
+          this for animated backgrounds and I really wanted my background to be
+          a piece of me (which is currently my pc setup) so I decided against
+          it.
+        </p>
+        <header class="paragraph_headers">
+          <h2>What did not work?</h2>
+        </header>
+        <p class="e-content">
+          For now, my site only uses animations for that. I tried implementing
+          the same animations for the smaller viewports like for tablet and
+          smartphone. The logo worked but due to the click event for the navbar
+          it was causing bugs if the user opens and closes the navbar too
+          quickly. The bug would be fixed if the user refreshes the page.
+          Instead of hoping that people don’t open and close it quickly or want
+          to constantly refresh the page I decided to not implement it on the
+          navbar but I kept the animation on the logo so there is still some
+          dynamic movement but not exactly what I want.
+        </p>
+        <p class="e-content">
+          I wanted to add a little wiggle to other links on the page when a
+          person hovers over it however I could not figure out how to give it
+          the little wiggle and I was not too sure if that would be too much for
+          the user. It might be quite unsettling and too much for some users if
+          every link that you hover over wiggles. I would like to test it out in
+          future though.
+        </p>
+        <header class="paragraph_headers">
+          <h2>Conclusion</h2>
+        </header>
+        <p class="e-content">
+          The API is easy to implement, and their documentation gives examples
+          and tells you what is possible with all the functions that you can
+          implement with the API. I would recommend this for anyone wanting to
+          make their animations easier and allow an API to do the heavy lifting.
+        </p>
+      </article>
+      <section id="blog_post_citations" class="h-entry">
+        <header class="headers"><h1 class="p-name">Citations</h1></header>
+        <article>
+          <p class="e-content">
+            [1] Anime, "Anime," [Online]. Available:
+            <cite>https://animejs.com/</cite> [Accessed 29 June 2022].
+          </p>
+        </article>
+      </section>
+    </main>
+    <footer class="footer"><p class="footer-text">Placeholder Text</p></footer>
+  </body>
+</html>
