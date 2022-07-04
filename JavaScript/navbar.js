@@ -28,13 +28,6 @@ function NavSlide() {
     const nav = document.querySelector(".nav-list");
     hamBurger.addEventListener("click", e => {
          nav.classList.toggle("toggle-nav");
-         anime({
-            targets: navLinks,
-            translateX: 300,
-            duration: 1000,
-            direction: "reverse",
-            easing: "easeInOutSine"
-         });
     });
 }
 
