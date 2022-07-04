@@ -13,7 +13,7 @@ function InitialiseFilePaths() {
   } else if (window.location.pathname == "/Blogs/blog.html") {
     filePaths = [
       "../index.html",
-      "blog.html",
+      "/Blogs/blog.html",
       "../Design/design.html",
       "../Portfolio/portfolio.html",
       "../Contact/contact.html",
