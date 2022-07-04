@@ -2,18 +2,10 @@ const navBarLinks = document.querySelectorAll(".navlink");
 var filePaths = ["placeholder text"];
 
 function InitialiseFilePaths() {
-  if (window.location.pathname == "") {
+  if (window.location.pathname == "/index.html") {
     filePaths = [
       "index.html",
-      "/blog.html",
-      "/Design/design.html",
-      "/Portfolio/portfolio.html",
-      "/Contact/contact.html",
-    ];
-  } else if (window.location.pathname == "/index.html") {
-    filePaths = [
-      "index.html",
-      "/Blogs/blog.html",
+      "../Blogs/blog.html",
       "/Design/design.html",
       "/Portfolio/portfolio.html",
       "/Contact/contact.html",
