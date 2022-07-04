@@ -42,18 +42,10 @@ function InitialiseFilePaths() {
       "../Portfolio/portfolio.html",
       "contact.html",
     ];
-  } else if (window.location.pathname == "/About/about.html") {
-    filePaths = [
-      "../index.html",
-      "../Blogs/blog.html",
-      "../Design/design.html",
-      "../Portfolio/portfolio.html",
-      "../Contact/contact.html",
-    ];
   } else {
     filePaths = [
       "../index.html",
-      "blog.html",
+      "/Blogs/blog.html",
       "../Design/design.html",
       "../Portfolio/portfolio.html",
       "../Contact/contact.html",
