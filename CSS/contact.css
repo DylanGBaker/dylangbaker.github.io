@@ -5,7 +5,9 @@ main {
 /*Classes for the Contact page*/
 
 #contact {
-  margin: 2% 10% 0px 10%;
+  display: block;
+  margin: 0 auto;
+  width: 70%;
   background: rgba(0, 0, 0, 0.5);
   backdrop-filter: blur(10px);
   border-radius: 5px;
